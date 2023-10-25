@@ -9,12 +9,12 @@ el valor de cada variable, la suma, la resta, la división y la multiplicación.
 public class ejercicio1 {
 
   public static void main(String[] args) {
-    int x = 999;
-    int e = 144;
+    int x = 144;
+    int e = 999;
 
     System.out.println("la suma de " + x + " y " + e + " es = " + (x + e ));
     System.out.println("la resta de " + x + " y " + e + " es = " + (x - e ));
-    System.out.println("la division de " + x + " y " + e + " es = " + (x / e ));
+    System.out.println("la division de " + x + " y " + e + " es = " + ((float)x / e ));
     System.out.println("la multiplicacion de " + x + " y " + e + " es = " + (x * e ));
   }
 
