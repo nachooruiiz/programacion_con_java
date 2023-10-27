@@ -15,7 +15,7 @@ public class ejercicio8 {
     char letra4 = 'a';
 
     String grande = "grande";
-
+    
     System.out.println("" + letra1 + letra2 + letra3 + letra4 + grande);
    
   }
