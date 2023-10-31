@@ -15,33 +15,33 @@ public class ejemplo03 {
   numero = sc.nextInt();
 
     switch (numero) {
-      case 1:
+      case 1,2,4,5:
         System.out.println("Es entre semana");
         break;
 
-      case 2:
-        System.out.println("Es entre semana");
-        break;
+      // case 2:
+      //   System.out.println("Es entre semana");
+      //   break;
 
       case 3:
         System.out.println("Es Festivo");
         break;
 
-      case 4:
-        System.out.println("Es entre semana");
-        break;
+      // case 4:
+      //   System.out.println("Es entre semana");
+      //   break;
 
-      case 5:
-        System.out.println("Es entre semana");
-        break;
+      // case 5:
+      //   System.out.println("Es entre semana");
+      //   break;
 
-      case 6:
+      case 6,7:
         System.out.println("Es fin de semana");
         break;
 
-      case 7:
-        System.out.println("Es fin de semana");
-        break;
+      // case 7:
+      //   System.out.println("Es fin de semana");
+      //   break;
     
       default:
       System.out.println("No es un dia valido");
