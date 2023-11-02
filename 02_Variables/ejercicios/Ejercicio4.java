@@ -7,7 +7,7 @@ convertir deberá estar almacenada en una variable.
 */
 public class Ejercicio4 {
   public static void main(String[] args) {
-    double euros = 6.00;
+    double euros = 100;
     int pesetas;
     pesetas = (int) (euros * 166.386);
     System.out.println(pesetas);
