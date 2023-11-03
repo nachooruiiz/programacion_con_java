@@ -24,7 +24,7 @@ public class ejercicios09 {
 
     double volumen = Math.PI * (Math.pow(r , 2) * h /3);
 
-    System.out.println("El volumen del cono es = " + volumen + " cm3");
+    System.out.printf("El volumen del cono es = %.3f cm" , volumen);
 
     sc.close();
   }
