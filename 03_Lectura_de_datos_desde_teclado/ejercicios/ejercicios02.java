@@ -18,6 +18,7 @@ public class ejercicios02 {
 
     pesetas = (int ) (euros * 166.386);
     System.out.println(euros + " son ->" + pesetas);
+    System.out.printf("%.2f € --> %d pta ", euros , pesetas);
 
     sc.close();
   }
