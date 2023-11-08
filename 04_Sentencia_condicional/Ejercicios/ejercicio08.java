@@ -29,7 +29,19 @@ public class ejercicio08 {
     if ((media >= 5) && (media < 6) ) {
       System.out.printf("Tu media es: %.2f y es suficiente" , media);
     } else {
-      
+      if ((media >= 6) && (media < 7)) {
+        System.out.printf("Tu media es: %.2f y es bien" , media);
+      } else {
+        if ((media >= 7) && (media < 9)) {
+        System.out.printf("Tu media es: %.2f y es notable" , media);
+        } else {
+          if ((media >= 9) && (media <= 10)) {
+          System.out.printf("Tu media es: %.2f y es sobresaliente" , media);
+          } else {
+          System.out.printf("Tu media es: %.2f y es insuficiente" , media);
+          }
+        }
+      }
     }
 
     sc.close();

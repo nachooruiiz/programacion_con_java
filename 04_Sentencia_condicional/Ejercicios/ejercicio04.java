@@ -24,11 +24,9 @@ public class ejercicio04 {
     if (( numerohoratrabada <= 40)) {
 
       sueldo = numerohoratrabada * 12;
-      
     }
     else {
-      sueldo = 40 * 12 + (numerohoratrabada - 40) * 16;
-      
+      sueldo = (40 * 12) +((numerohoratrabada - 40) * 16); 
     }
 
     System.out.println("El sueldo semanal que le corresponde es de " + sueldo + " euros");
