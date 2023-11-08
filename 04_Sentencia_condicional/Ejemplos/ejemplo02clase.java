@@ -6,7 +6,7 @@ import java.util.Scanner;
  * 
  * @author Juan Ignacio Ruiz
 */
-public class ejemplo02 {
+public class ejemplo02clase {
   public static void main(String[] args) {
     
     int numero;

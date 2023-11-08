@@ -6,7 +6,7 @@ import java.util.Scanner;
  * 
  * @author Juan Ignacio Ruiz
 */
-public class ejemplo01 {
+public class ejemplo01clase {
 
   public static void main(String[] args) {
     
