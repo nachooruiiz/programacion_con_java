@@ -21,7 +21,8 @@ public class ejercicio12 {
     System.out.println("a) int\nb) double\nc) float"); 
     System.out.print("Respuesta: ");
     respuesta = System.console().readLine();
-    if (respuesta == "b") {
+
+    if (respuesta.equals("b")) {
       System.out.println("Correcto");
       puntos++;     //Aumentamos el valor de puntos en 1 unidad
     } else {

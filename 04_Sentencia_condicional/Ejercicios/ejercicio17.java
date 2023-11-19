@@ -15,5 +15,6 @@ public class ejercicio17 {
 
     num = (num % 10);
     System.out.println("Es " + num);
+    sc.close();
   }
 }
