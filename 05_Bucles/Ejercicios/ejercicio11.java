@@ -14,6 +14,7 @@ public class ejercicio11 {
     System.out.print("Introduce un número: ");
     numeroIntroducido = sc.nextInt();
     sc.close();
+    
     System.out.printf("%5s  |%8s  |%9s  \n", "n", "n²", "n³");
     System.out.println("----------------------------");
 

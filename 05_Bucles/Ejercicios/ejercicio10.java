@@ -1,4 +1,3 @@
-import java.util.Scanner;
 
 /**
  * Escribe un programa que calcule la media de un conjunto de números positivos
@@ -11,22 +10,24 @@ cuando meta un número negativo.
 */
 public class ejercicio10 {
   public static void main(String[] args) {
-    // Scanner sc = new Scanner(System.in);
-    // double  numeroIntroducido;
-    // double contador;
+    double numeroIntroducido = 0;
+    int cantidadPositivos = 0;
+    double media;
+    double suma = 0;    //Donde iremos acumulando los numeros y que nos sirve para hacer la media
 
-    // do {
-    //    for (int i = 1; ; i++) {
-    //   System.out.print("Dame un numeros positivo: ");
-    //   numeroIntroducido = sc.nextDouble();
-    //   contador = numeroIntroducido;
-    //   double n = contador + numeroIntroducido;
-    //   i++;
-    // }
-    // } while (numeroIntroducido > 0);
+    System.out.println("Este programa calcula la media de los números positivos introducidos.");
+    System.out.println("Para parar, introduzca un número negativo.");
+    System.out.println("Introduce números y pulse INTRO:");
 
-    // System.out.println(n /i);
-
-    
+    while (numeroIntroducido >= 0) {
+      numeroIntroducido = Double.parseDouble(System.console().readLine());
+      //El 0 no se tendrá en cuenta para el cálculo de la media.
+      if (numeroIntroducido > 0) {
+        suma += numeroIntroducido;
+        cantidadPositivos++;
+      }
+    }
+    media = suma / cantidadPositivos;
+    System.out.printf("La media de los %d números positivos introducidos es: %.2f", cantidadPositivos, media);
   }
 }
