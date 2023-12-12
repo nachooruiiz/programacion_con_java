@@ -21,6 +21,7 @@ public class ejercicio25 {
       numerovolteado = (copianumero % 10) + (numerovolteado * 10);
       copianumero /= 10;
     }
+    
     if (copianumero > 0) {
       System.out.println("El numero " + num1 + " volteado es " + numerovolteado) ;
     } else {

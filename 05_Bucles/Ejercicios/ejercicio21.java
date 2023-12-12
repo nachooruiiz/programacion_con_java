@@ -17,6 +17,7 @@ public static void main(String[] args) {
     int numeroIntroducido;
     // double mediaImpares = 0;
     Scanner sc = new Scanner(System.in);
+    
     System.out.println("Por favor, vaya introduciendo números enteros.");
     System.out.println("Puede terminar mediante la introducción de un número negativo.");
 
