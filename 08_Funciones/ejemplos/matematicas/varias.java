@@ -40,4 +40,15 @@ public class varias {
       return n;
     }
   }
+
+  public static int siguientePrimo(int x){
+    // do {
+    //   x++;
+    // } while (esPrimo(x) == false );
+    while (!esPrimo(++x)) {
+      
+    }
+    return x;
+  }
+  
 }
