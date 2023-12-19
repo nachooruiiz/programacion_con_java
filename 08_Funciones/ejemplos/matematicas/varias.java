@@ -50,5 +50,40 @@ public class varias {
     }
     return x;
   }
-  
+
+  // Factorial 
+
+  public static int factorial(int numero){
+    int res=numero;
+    for(int cont=(numero-1);cont>0;cont--){ 
+        res=res*cont;
+    }
+    return res;
+}
+
+//Conversor
+public static void conversor (double cantidad, String moneda){
+  double res=0;
+  boolean correcto = true;
+
+  switch (moneda){
+  case "libras":
+      res=cantidad*0.86;
+      break;
+  case "dolares":
+      res=cantidad*1.29;
+      break;
+  case "yenes":
+      res=cantidad*129.852;
+      break;
+  default:
+      System.out.println("No has introducido una moneda correcta");
+      correcto=false;
+  }
+
+  if (correcto){
+      System.out.println(cantidad+ " euros en " +moneda+ " son " +res);
+  }
+
+}
 }
