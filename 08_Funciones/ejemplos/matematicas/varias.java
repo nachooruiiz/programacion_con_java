@@ -73,16 +73,13 @@ public static void conversor (double cantidad, String moneda){
   case "dolares":
       res=cantidad*1.29;
       break;
-  case "yenes":
-      res=cantidad*129.852;
-      break;
   default:
       System.out.println("No has introducido una moneda correcta");
-      correcto=false;
+      
   }
 
   if (correcto){
-      System.out.println(cantidad+ " euros en " +moneda+ " son " +res);
+      System.out.println(cantidad + " euros en " + moneda + " son " + res);
   }
 
 }
