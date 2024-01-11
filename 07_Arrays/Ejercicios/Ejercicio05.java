@@ -10,6 +10,7 @@ máximo y del mínimo respectivamente.
 public class Ejercicio05 {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
+    
    int[] num = new int[10];
    int minimo = Integer.MAX_VALUE;
    int maximo = Integer.MIN_VALUE;
@@ -32,6 +33,7 @@ public class Ejercicio05 {
    System.out.println("Tus numeros son: ");
    for (int i = 0; i < num.length; i++) {
     System.out.print(num[i] + "\t");
+    
     if (num[i] == maximo) {
       System.out.print(" maximo ");
     }
@@ -41,6 +43,7 @@ public class Ejercicio05 {
     }
     System.out.println();
    }
+
    sc.close();
   }
 }
