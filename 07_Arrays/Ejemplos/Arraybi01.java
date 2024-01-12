@@ -1,4 +1,4 @@
-import java.util.Scanner;
+
 /**
  * Explica tu coduigo aqui
  * 
@@ -6,7 +6,10 @@ import java.util.Scanner;
  * @author Juan Ignacio Ruiz
 */
 public class Arraybi01 {
-  public static void main(String[] args) {
+  /**
+   * @param args
+   */
+  public static void main(String[] args) throws InterruptedException {
     int[][] n = new int[3][2];
     n[0][0] = 20;
     n[1][0] = 67;
@@ -20,7 +23,7 @@ public class Arraybi01 {
       
       for (int columna = 0; columna < n[filas].length; columna++) {
         System.out.printf("%10d " , n[filas][columna]);
-        
+        Thread.sleep(1000);
       }
       System.out.println();
     }
