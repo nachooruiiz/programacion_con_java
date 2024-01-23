@@ -17,7 +17,7 @@ public class Arraybi01 {
     n[2][1] = 7;
 
     System.out.println("Numero de filas: " + n.length);
-    System.out.println("Numero de filas: " + n[0].length);
+    System.out.println("Numero de culumnas: " + n[0].length);
 
     for (int filas = 0; filas < n.length; filas++) {
       

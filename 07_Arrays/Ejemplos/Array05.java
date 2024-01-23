@@ -27,7 +27,8 @@ public class Array05 {
     }
 
     media = suma / notas.length;
-    System.out.println("\nLa media es: " + media);
+    // System.out.println("\nLa media es: " + media);
+    System.out.printf("\nLa media es %.2f" , media);
     sc.close();
   }
 }
